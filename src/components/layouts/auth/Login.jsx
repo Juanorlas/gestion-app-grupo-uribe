@@ -5,6 +5,7 @@ const Login = () => {
     const [getUsuario, setUsuario] = useState("")
     const [getContrasena, setContrasena] = useState("")
     const [getCorreo, setCorreo] = useState("")
+    console.log(getUsuario, getContrasena, getCorreo)
     return (
     <form className="login-form">
       <img src={userLogo} alt="Usuario" />
